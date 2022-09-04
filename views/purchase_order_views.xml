@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Inherit Form View to Modify it -->
+        <record id="zalo_message_purchase_order_inherit_form_view" model="ir.ui.view">
+            <field name="name">zalo_message_purchase_order_inherit_form_view</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.purchase_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='action_rfq_send']" position="after">
+                    <button name="action_send_zalo_message" type="object" string="Send Zalo Message"
+                            attrs="{'invisible': [('state', '!=', 'purchase')]}"/>
+                </xpath>
+
+                <xpath expr="//sheet/div" position="inside">
+                    <button class="oe_stat_button" name="action_open_message_history" type="object" icon="fa-tasks">
+                        <field string="Message" name="message_count" widget="statinfo"/>
+                    </button>
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>

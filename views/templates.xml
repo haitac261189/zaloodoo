@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <template id="assets_backend" name="open_zalo_message_form assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/sim_zalo_message/static/src/js/message_form.js"/>
+            </xpath>
+    </template>
+    </data>
+</odoo>

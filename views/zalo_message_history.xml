@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="zalo_message_history_view_form" model="ir.ui.view">
+            <field name="name">zalo_message_history_view_form</field>
+            <field name="model">zalo.message.history</field>
+            <field name="arch" type="xml">
+                <form create="false" delete="false" edit="false">
+                    <sheet>
+                        <group>
+                            <field name="recipient"/>
+                            <field name="message_type"/>
+                            <field name="content"/>
+                            <field name="source_document"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="zalo_message_history_view_tree" model="ir.ui.view">
+            <field name="name">zalo_message_history_view_tree</field>
+            <field name="model">zalo.message.history</field>
+            <field name="arch" type="xml">
+                <tree create="false" delete="false" edit="false">
+                    <field name="recipient"/>
+                    <field name="message_type"/>
+                    <field name="content"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="zalo_message_history_action" model="ir.actions.act_window">
+            <field name="name">Message History</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">zalo.message.history</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="zalo_message_menu_root"
+                  name="Zalo Message"/>
+
+        <menuitem id="zalo_message_menu_history"
+                  name="Message History"
+                  action="zalo_message_history_action"
+                  parent="zalo_message_menu_root"/>
+
+    </data>
+</odoo>
