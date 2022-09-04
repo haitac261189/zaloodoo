@@ -1,0 +1,219 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sim_zalo_message
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-26 10:13+0000\n"
+"PO-Revision-Date: 2021-02-26 10:13+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sim_zalo_message
+#: model_terms:ir.ui.view,arch_db:sim_zalo_message.res_config_zalo_sms_settings_view_form
+msgid "<b>OA Access Token</b>"
+msgstr ""
+
+#. module: sim_zalo_message
+#: model:ir.model,name:sim_zalo_message.model_res_config_settings
+msgid "Config Settings"
+msgstr "Thiết lập cấu hình"
+
+#. module: sim_zalo_message
+#: model_terms:ir.ui.view,arch_db:sim_zalo_message.res_config_zalo_sms_settings_view_form
+msgid "Connect with Zalo by Zalo API"
+msgstr "Kết nối với Zalo bằng Zalo API"
+
+#. module: sim_zalo_message
+#: model:ir.model,name:sim_zalo_message.model_res_partner
+msgid "Contact"
+msgstr "Liên hệ"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_form_message__content
+msgid "Content"
+msgstr "Nội dung"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_form_message__create_uid
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_message_history__create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_form_message__create_date
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_message_history__create_date
+msgid "Created on"
+msgstr "Được tạo lúc"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_purchase_order__display_name
+#: model:ir.model.fields,field_description:sim_zalo_message.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:sim_zalo_message.field_res_partner__display_name
+#: model:ir.model.fields,field_description:sim_zalo_message.field_sale_order__display_name
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_form_message__display_name
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_message_history__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_form_message__file
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_message_history__file
+msgid "File"
+msgstr "Tệp"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields.selection,name:sim_zalo_message.selection__zalo_form_message__message_type__file
+msgid "File Message"
+msgstr "Tin nhắn tệp"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_form_message__file_name
+msgid "File Name"
+msgstr "Tên File"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_purchase_order__id
+#: model:ir.model.fields,field_description:sim_zalo_message.field_res_config_settings__id
+#: model:ir.model.fields,field_description:sim_zalo_message.field_res_partner__id
+#: model:ir.model.fields,field_description:sim_zalo_message.field_sale_order__id
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_form_message__id
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_message_history__id
+msgid "ID"
+msgstr ""
+
+#. module: sim_zalo_message
+#: model:ir.model.fields.selection,name:sim_zalo_message.selection__zalo_form_message__message_type__image
+msgid "Image Message"
+msgstr "Tin nhắn hình"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_purchase_order____last_update
+#: model:ir.model.fields,field_description:sim_zalo_message.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:sim_zalo_message.field_res_partner____last_update
+#: model:ir.model.fields,field_description:sim_zalo_message.field_sale_order____last_update
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_form_message____last_update
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_message_history____last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_form_message__write_uid
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_message_history__write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_form_message__write_date
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_message_history__write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối lúc"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_purchase_order__message_count
+#: model:ir.model.fields,field_description:sim_zalo_message.field_sale_order__message_count
+#: model_terms:ir.ui.view,arch_db:sim_zalo_message.zalo_message_purchase_order_inherit_form_view
+#: model_terms:ir.ui.view,arch_db:sim_zalo_message.zalo_message_sale_order_inherit_form_view
+msgid "Message"
+msgstr "Tin nhắn"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_message_history__content
+msgid "Message Content"
+msgstr "Nội dung tin nhắn"
+
+#. module: sim_zalo_message
+#: model:ir.actions.act_window,name:sim_zalo_message.zalo_message_history_action
+#: model:ir.ui.menu,name:sim_zalo_message.zalo_message_menu_history
+msgid "Message History"
+msgstr "Lịch sử tin nhắn"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_form_message__message_type
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_message_history__message_type
+msgid "Message Type"
+msgstr "Loại tin nhắn"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_res_config_settings__access_token
+msgid "OA Access Token"
+msgstr ""
+
+#. module: sim_zalo_message
+#: model:ir.model,name:sim_zalo_message.model_purchase_order
+msgid "Purchase Order"
+msgstr "Đơn mua hàng"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_message_history__recipient
+msgid "Recipient"
+msgstr "Người nhận"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_form_message__recipient_ids
+msgid "Recipients"
+msgstr "Người nhận"
+
+#. module: sim_zalo_message
+#: model:ir.model,name:sim_zalo_message.model_sale_order
+msgid "Sales Order"
+msgstr "Đơn bán hàng"
+
+#. module: sim_zalo_message
+#: model_terms:ir.ui.view,arch_db:sim_zalo_message.zalo_form_message_view_form
+msgid "Send Message"
+msgstr "Gửi tin nhắn"
+
+#. module: sim_zalo_message
+#: model:ir.actions.act_window,name:sim_zalo_message.action_open_zalo_form_message
+#: model_terms:ir.ui.view,arch_db:sim_zalo_message.zalo_message_purchase_order_inherit_form_view
+#: model_terms:ir.ui.view,arch_db:sim_zalo_message.zalo_message_sale_order_inherit_form_view
+msgid "Send Zalo Message"
+msgstr "Gửi tin nhắn zalo"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_zalo_message_history__source_document
+msgid "Source Document"
+msgstr "Tài liệu gốc"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields.selection,name:sim_zalo_message.selection__zalo_form_message__message_type__text
+msgid "Text Message"
+msgstr "Tin nhắn văn bản"
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_res_config_settings__is_setting
+msgid "Zalo API"
+msgstr ""
+
+#. module: sim_zalo_message
+#: model:ir.model.fields,field_description:sim_zalo_message.field_res_partner__zalo_id
+#: model:ir.model.fields,field_description:sim_zalo_message.field_res_users__zalo_id
+msgid "Zalo Id"
+msgstr ""
+
+#. module: sim_zalo_message
+#: model:ir.ui.menu,name:sim_zalo_message.zalo_message_menu_root
+msgid "Zalo Message"
+msgstr "Tin nhắn Zalo"
+
+#. module: sim_zalo_message
+#: model_terms:ir.ui.view,arch_db:sim_zalo_message.res_config_zalo_sms_settings_view_form
+msgid "Zalo SMS"
+msgstr ""
+
+#. module: sim_zalo_message
+#: model:ir.model,name:sim_zalo_message.model_zalo_form_message
+msgid "zalo.form.message"
+msgstr ""
+
+#. module: sim_zalo_message
+#: model:ir.model,name:sim_zalo_message.model_zalo_message_history
+msgid "zalo.message.history"
+msgstr ""

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Inherit Form View to Modify it -->
+        <record id="zalo_id_res_partner_form_view_inherit" model="ir.ui.view">
+            <field name="name">zalo.id.res.partner.form.view.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='vat']" position="before">
+                    <field name="zalo_id"/>
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="zalo_form_message_view_form" model="ir.ui.view">
+            <field name="name">zalo_form_message_view_form</field>
+            <field name="model">zalo.form.message</field>
+            <field name="arch" type="xml">
+                <form string="">
+                    <group>
+                        <field name="recipient_ids" widget="many2many_tags"/>
+                        <field name="message_type"/>
+                    </group>
+                    <group>
+                        <field name="content" attrs="{'invisible': [('message_type','!=', 'text')]}"/>
+                        <field name="file" filename="file_name" widget="many2many_binary"
+                               attrs="{'invisible': [('message_type','=', 'text')]}"/>
+                        <field name="file_name" invisible="1"/>
+                    </group>
+                    <footer>
+                        <button name="action_send" string="Send Message" type="object" class="btn-primary"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_open_zalo_form_message">
+            <field name="name">Send Zalo Message</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">zalo.form.message</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="sim_zalo_message.zalo_form_message_view_form"/>
+            <field name="target">new</field>
+        </record>
+    </data>
+</odoo>
